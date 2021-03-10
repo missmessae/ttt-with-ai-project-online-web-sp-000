@@ -8,12 +8,6 @@ class TicTacToeCLI
     computer_two = Players::Computer.new("O")
     human_one = Players::Human.new("X")
 
-    puts %q[
-      ---------   ---------   ---------
-      ---------   ---------   ---------
-         | |         | |         | |
-         |_|         |_|         |_|
-    ]
     puts "\nWelcome to Tic Tac Toe!"
     puts "~~~~~~~~~~~~~~~~~~~~~~~"
     puts "How many players? [0 (comp v. comp) || 1 (comp. v. human) || 2 (human v. human) || wargames]"
