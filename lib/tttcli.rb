@@ -15,7 +15,7 @@ class TicTacToeCLI
                  |_|         |_|         |_|
     ]
     puts "\nWelcome to Tic Tac Toe!"
-    puts "~~~~~~~~~~~~~~~~~~~~~~~".blue
+    puts "~~~~~~~~~~~~~~~~~~~~~~~"
     puts "How many players? [0 (comp v. comp) || 1 (comp. v. human) || 2 (human v. human) || wargames]"
     player_number = gets.chomp
 
